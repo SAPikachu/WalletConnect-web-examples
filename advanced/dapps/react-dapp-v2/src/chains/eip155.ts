@@ -126,6 +126,13 @@ export const EIP155ChainData: ChainsMap = {
     slip44: 60,
     testnet: true,
   },
+  "80002": {
+    name: "Polygon Amoy",
+    id: "eip155:80002",
+    rpc: ["https://rpc-amoy.polygon.technology"],
+    slip44: 60,
+    testnet: true,
+  },
   "421611": {
     name: "Arbitrum Rinkeby",
     id: "eip155:421611",
@@ -182,6 +189,10 @@ export const EIP155Metadata: NamespaceMetadata = {
     rgb: EIP155Colors.polygon,
   },
   "80001": {
+    logo: "/assets/" + "eip155-80001.png",
+    rgb: EIP155Colors.polygon,
+  },
+  "80002": {
     logo: "/assets/" + "eip155-80001.png",
     rgb: EIP155Colors.polygon,
   },
