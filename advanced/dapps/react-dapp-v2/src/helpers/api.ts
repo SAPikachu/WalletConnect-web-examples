@@ -75,6 +75,14 @@ export const rpcProvidersByChainId: RpcProvidersByChainId = {
       symbol: "MATIC",
     },
   },
+  80002: {
+    name: "Polygon Amoy",
+    baseURL: "https://rpc-amoy.polygon.technology/",
+    token: {
+      name: "Matic",
+      symbol: "MATIC",
+    },
+  },
   10: {
     name: "Optimism",
     baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:10",
