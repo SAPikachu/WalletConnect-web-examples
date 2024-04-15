@@ -27,7 +27,7 @@ export const DEFAULT_TEST_CHAINS = [
   "eip155:11155111",
   "eip155:280",
   "eip155:420",
-  "eip155:80001",
+  "eip155:80002",
   "eip155:421611",
   "eip155:44787",
   "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
