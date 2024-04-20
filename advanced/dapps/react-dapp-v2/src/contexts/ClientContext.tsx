@@ -63,6 +63,37 @@ const web3Modal = new Web3Modal({
   projectId: DEFAULT_PROJECT_ID,
   themeMode: "light",
   walletConnectVersion: 2,
+  mobileWallets: [{
+    id: "grinderyWallet",
+    name: "Grindery Wallet",
+    links: {
+      universal: "https://walletconnect.grindery.com/connect"
+    }
+  }, {
+    id: "grinderyWalletStaging",
+    name: "Grindery Wallet Staging",
+    links: {
+      universal: "https://walletconnect.grindery.com/connect-staging"
+    }
+  }],
+  desktopWallets: [{
+    id: "grinderyWallet",
+    name: "Grindery Wallet",
+    links: {
+      universal: "https://walletconnect.grindery.com/connect"
+    }
+  }, {
+    id: "grinderyWalletStaging",
+    name: "Grindery Wallet Staging",
+    links: {
+      universal: "https://walletconnect.grindery.com/connect-staging"
+    }
+  }],
+  walletImages: {
+    grinderyWallet: "https://22257229.fs1.hubspotusercontent-na1.net/hubfs/22257229/Community/Channels/Grindery%20AI.jpeg",
+    grinderyWalletStaging: "https://22257229.fs1.hubspotusercontent-na1.net/hubfs/22257229/Community/Channels/Grindery%20AI.jpeg"
+  },
+  enableExplorer: false
 });
 
 /**
