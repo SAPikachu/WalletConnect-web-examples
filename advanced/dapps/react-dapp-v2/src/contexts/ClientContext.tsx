@@ -93,7 +93,7 @@ const web3Modal = new Web3Modal({
   }],
   walletImages: {
     grinderyWallet: "https://22257229.fs1.hubspotusercontent-na1.net/hubfs/22257229/Community/Channels/Grindery%20AI.jpeg",
-    grinderyWalletStaging: "https://22257229.fs1.hubspotusercontent-na1.net/hubfs/22257229/Community/Channels/Grindery%20AI.jpeg"
+    grinderyWalletStaging: "https://22257229.fs1.hubspotusercontent-na1.net/hubfs/22257229/Grindery%20AI%20gray.jpeg"
   },
   enableExplorer: false
 });
