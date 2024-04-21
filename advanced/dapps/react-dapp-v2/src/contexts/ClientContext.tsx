@@ -68,14 +68,14 @@ const web3Modal = new Web3Modal({
     name: "Grindery Wallet",
     links: {
       universal: "https://walletconnect.grindery.com/connect",
-      native: ""
+      native: "https://walletconnect.grindery.com/connect"
     }
   }, {
     id: "grinderyWalletStaging",
     name: "Grindery Wallet Staging",
     links: {
       universal: "https://walletconnect.grindery.com/connect-staging",
-      native: ""
+      native: "https://walletconnect.grindery.com/connect-staging"
     }
   }],
   desktopWallets: [{
