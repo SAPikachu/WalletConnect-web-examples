@@ -67,15 +67,15 @@ const web3Modal = new Web3Modal({
     id: "grinderyWallet",
     name: "Grindery Wallet",
     links: {
-      universal: "https://walletconnect.grindery.com/connect",
-      native: "https://walletconnect.grindery.com/connect"
+      universal: "https://wallet.grindery.com/connect",
+      native: "https://wallet.grindery.com/connect"
     }
   }, {
     id: "grinderyWalletStaging",
     name: "Grindery Wallet Staging",
     links: {
-      universal: "https://walletconnect.grindery.com/connect-staging",
-      native: "https://walletconnect.grindery.com/connect-staging"
+      universal: "https://wallet-staging.grindery.com/connect",
+      native: "https://wallet-staging.grindery.com/connect"
     }
   }],
   desktopWallets: [{
@@ -89,7 +89,7 @@ const web3Modal = new Web3Modal({
     id: "grinderyWalletStaging",
     name: "Grindery Wallet Staging",
     links: {
-      universal: "http://wallet-staging.grindery.com/connect",
+      universal: "https://wallet-staging.grindery.com/connect",
       native: ""
     }
   }],
