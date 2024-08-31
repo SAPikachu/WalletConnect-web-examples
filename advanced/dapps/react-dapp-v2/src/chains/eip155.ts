@@ -215,7 +215,7 @@ export const EIP155Metadata: NamespaceMetadata = {
     rgb: EIP155Colors.zksync,
   },
   "204": {
-    logo: "/assets/" + "eip155-204.webp",
+    logo: "/assets/" + "eip155-56.webp",
     rgb: EIP155Colors.zksync,
   },
   "42161": {
