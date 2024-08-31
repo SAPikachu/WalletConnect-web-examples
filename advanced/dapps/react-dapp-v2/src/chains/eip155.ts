@@ -91,6 +91,20 @@ export const EIP155ChainData: ChainsMap = {
     slip44: 60,
     testnet: false,
   },
+  "56": {
+    name: "Binance Smart Chain",
+    id: "eip155:56",
+    rpc: ["https://binance.llamarpc.com"],
+    slip44: 60,
+    testnet: false,
+  },
+  "204": {
+    name: "opBNB",
+    id: "eip155:204",
+    rpc: ["https://opbnb-rpc.publicnode.com"],
+    slip44: 60,
+    testnet: false,
+  },
   "420": {
     name: "Optimism Goerli",
     id: "eip155:420",
@@ -195,6 +209,14 @@ export const EIP155Metadata: NamespaceMetadata = {
   "80002": {
     logo: "/assets/" + "eip155-80001.png",
     rgb: EIP155Colors.polygon,
+  },
+  "56": {
+    logo: "/assets/" + "eip155-56.webp",
+    rgb: EIP155Colors.zksync,
+  },
+  "204": {
+    logo: "/assets/" + "eip155-204.webp",
+    rgb: EIP155Colors.zksync,
   },
   "42161": {
     name: "Arbitrum",

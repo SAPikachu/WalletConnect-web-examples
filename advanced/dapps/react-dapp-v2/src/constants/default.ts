@@ -9,6 +9,8 @@ export const DEFAULT_MAIN_CHAINS = [
   "eip155:10",
   "eip155:100",
   "eip155:137",
+  "eip155:56",
+  "eip155:204",
   "eip155:324",
   "eip155:42161",
   "eip155:42220",

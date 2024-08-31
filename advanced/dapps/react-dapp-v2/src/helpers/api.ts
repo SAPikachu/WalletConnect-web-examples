@@ -83,6 +83,22 @@ export const rpcProvidersByChainId: RpcProvidersByChainId = {
       symbol: "MATIC",
     },
   },
+  56: {
+    name: "Binance Smart Chain",
+    baseURL: "https://binance.llamarpc.com/",
+    token: {
+      name: "BNB",
+      symbol: "BNB",
+    },
+  },
+  204: {
+    name: "opBNB",
+    baseURL: "https://opbnb-rpc.publicnode.com/",
+    token: {
+      name: "BNB",
+      symbol: "BNB",
+    },
+  },
   10: {
     name: "Optimism",
     baseURL: WALLETCONNECT_RPC_BASE_URL + "&chainId=eip155:10",
